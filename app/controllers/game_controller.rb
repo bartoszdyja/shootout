@@ -12,6 +12,6 @@ class GameController < ApplicationController
   private
 
   def game_params
-    params.permit(:coor)
+    params.permit(:xy)
   end
 end
